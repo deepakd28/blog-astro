@@ -1,0 +1,111 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+
+
+---
+<MainLayout title="About" >
+   
+        <section class="aboutt">
+          <div class="pic-about">
+            <img src="propic.jpg" alt="">
+          </div>
+          
+          <div class="about-desc card">
+        <h1>Hello There!</h1>
+        <p>
+          I'm Deepak, pursuing engineering in the branch of <b>Computer Science and </b> at <a href="https://www.sjec.ac.in">SJEC.</a>
+        </p>
+        <p>
+          I'm still in my learning phase and would love to explore and implement
+          new technologies in my projects.
+          <br />
+          I'm familiar with <b>HTML, CSS, C++, Java, Git</b> and <b>Github</b>.
+          I'm currently learning <b>Astro</b> and <b>JavaScript</b>.
+          </p>
+          </div>
+          
+        </section>
+</MainLayout> 
+<style>
+  section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-left: 0%;
+  }
+  main {
+    margin: 1rem;
+    padding: 20px 50px;
+    max-height: 100vh;
+  }
+  p {
+    font-family: 'poppin',sans-serif;
+    line-height: 40px;
+    font-size: 3rem;
+    color: rgb(164, 164, 164);
+    font-weight: 550;
+    transition: 250ms;
+	padding-left:10px;
+  margin: 3%;
+  }
+  b {
+    color: white;
+  }
+  h1 {
+    font-size: 2.7rem;
+    color: #0ef;
+    margin: 3%;
+  }
+  img {
+    width: 360px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+  .card{
+    
+  }
+  .about-desc{
+    margin-top: 2%;
+  }
+
+  .pic-about {
+    float: right;
+    justify-content: right;
+    padding-top: 60px;
+    padding-right: 100px;
+	transition: 250ms ease-in-out;
+  
+  }
+  a{
+    color: #0ef;
+    text-decoration: none;
+    transition: 250ms;
+  }
+
+  @media (max-width: 810px) {
+	main{
+		padding: 20px 20px;
+	}
+
+	.image {
+	  padding-top: 40px;
+	  float: none;
+	  padding-left: 50px;
+	  justify-content:space-between;
+	}
+	img {
+	  width: 200px;
+  }
+  p{
+	line-height: 25px;
+	font-size: 1rem;
+	font-weight:500;
+  }
+  h1{
+	font-size: 2.3rem;
+  }
+}
+</style>

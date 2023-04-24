@@ -1,0 +1,22 @@
+{
+  "name": "mad-meridian",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "browerslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.18",
+    "postcss": "^8.4.21",
+    "postcss-preset-env": "^8.3.1",
+    "typed.js": "^2.0.15"
+  }
+}

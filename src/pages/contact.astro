@@ -1,0 +1,25 @@
+---
+
+import MainLayout from '../layouts/MainLayout.astro';
+const title = 'Contact'
+---
+<MainLayout title={title}> 
+    <div class="trial">
+    <h1>hey!!!!</h1>
+<h1>i am a <span class="multiple-text"></span></h1></div> 
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+     <script>
+import Typed from 'typed.js';
+var typed = new Typed('.multiple-text', {
+  strings: ['Student', 'developer'],
+  typeSpeed: 50,
+  loop:true,
+});
+</script>
+</MainLayout>
+    <style>
+        .trial{
+            margin-top: 5%;
+        }
+    </style>
